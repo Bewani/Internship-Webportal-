@@ -1,1 +1,3 @@
 This is a description about the website that we are developing for oue university, it is a webprotal for internship management for our department.
+There are so many facilities that we are providing, such as;
+  facilitate companies to upload their vacancies for our websites, and industry cordinator wii able to download their vacancies from the website and send suitable students for those companies by filtering studentds according to given requiremnet by the organization.

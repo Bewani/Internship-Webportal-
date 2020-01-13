@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
     header('Content-Length: ' . filesize('uploads/' . $file['name']));
-    readfile('uploads/' . $file['vacancy_file']);
+    readfile('uploadedFiles/' . $file['vacancy_file']);
       
             
         }else{

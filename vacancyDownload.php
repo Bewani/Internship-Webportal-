@@ -19,7 +19,7 @@ if (isset($_GET['id'])) {
     header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
-    header('Content-Length: ' . filesize('uploads/' . $file['name']));
+    header('Content-Length: ' . filesize('uploadedFiles/' . $file['vacancy_file']));
     readfile('uploadedFiles/' . $file['vacancy_file']);
       
             
